@@ -6,7 +6,7 @@ import matplotlib.pyplot
 import matplotlib.pyplot as plt
 
 # Reading target image
-target_im = imageio.imread("E:\\Users\\Ibrahim\\Downloads\\mikisisi (1).jpg")
+target_im = imageio.imread("PATH")
 target_im = numpy.asarray(target_im / 255, dtype=float)
 
 target_chromosome = gari.img2chromosome(target_im)
